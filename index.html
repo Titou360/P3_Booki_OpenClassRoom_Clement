@@ -8,9 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/modif.css">
 </head>
 
 <body>
@@ -20,18 +19,17 @@
         <header>
             <div>
                 <nav class="menu-principal">
-                    <img src="images/logo/Booki@3x.png" alt="Logo Booki" class="logo-icone" />
+                    <img src="images/logo/Booki@3x.png" alt="Logo Booki" class="logo-icone">
                     <div class="menu">
-                        <a href="#">Hébergements</a>
-                        <a href="#">Activités</a>
+                        <a href="#hebergements">Hébergements</a>
+                        <a href="#activites">Activités</a>
                     </div>
                 </nav>
 
                 <div>
-                    <h1 class="section-title">Trouver votre hébergement pour des vacances de rêve</h1>
-                    <h2>En plein centre-ville ou en pleine nature</h2>
+                    <h2>Trouver votre hébergement pour des vacances de rêve</h2>
+                    <h3>En plein centre-ville ou en pleine nature</h3>
                 </div>
-
 
                 <nav class="menu-secondary">
                     <form>
@@ -50,7 +48,7 @@
             </div>
 
             <nav class="menu-filters">
-                    <h1 class="section-title">Filtres</h1>
+                    <h2>Filtres</h2>
                     <ul>
                         <li><a href="#"><i class="fa-solid fa-money-bill-wave"></i> Économique</a></li>
                         <li><a href="#"><i class="fa-solid fa-person"></i> Familial</a></li>
@@ -61,25 +59,22 @@
             
 
             <div>
-                <h2><span class="span-info"><i class="fa-solid fa-info"></i></span> Plus de 500 logements sont disponibles dans
-                    cette ville</h2>
+                <h3><span class="span-info"><i class="fa-solid fa-info"></i></span> Plus de 500 logements sont disponibles dans
+                    cette ville</h3>
             </div>
         </header>
 
-
-
-
         <main>
             <div class="hebergements-and-populaires">
-                <section class="hebergements">
+                <section class="hebergements" id="hebergements">
                     <div class="populaires-title">
-                        <h1 class="section-title">Hébergement à Marseille</h1>
+                        <h2>Hébergement à Marseille</h2>
                     </div>
 
                     <ul class="hebergements-and-populaires">
                         <li>
                             <article class="card">
-                                <img src="./images/hebergements/fred-kleber.jpg" alt="Image de la chambre d'hôtel montrant deux lits séparés" />
+                                <img src="./images/hebergements/fred-kleber.jpg" alt="Image de la chambre d'hôtel montrant deux lits séparés">
                                 <div class="card-content">
                                     <div class="card-txt">
                                         <h3 class="card-title">Hôtel du Port</h3>
@@ -93,6 +88,7 @@
                                         <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
                                         <span class="sr-only">Note de 4 sur 5</span>
                                     </div>
+                                </div>
                             </article>
                         </li>
 
@@ -183,7 +179,7 @@
                         <li>
                             <article class="card">
                                 <img src="./images/hebergements/nicate-lee.jpg"
-                                    alt="Image de la chambre d'hôtel montrant deux lits séparés" />
+                                    alt="Image de la chambre d'hôtel montrant deux lits séparés">
                                 <div class="card-content">
                                     <div class="card-txt">
                                         <h3 class="card-title">Auberge Le Panier</h3>
@@ -205,7 +201,7 @@
 
                     <div>
                         <div class="populaires-title">
-                           <a href="#"><h1 class="section-title">Afficher plus</h1></a>
+                           <a href="#">Afficher plus</a>
                         </div>
                     </div>
 
@@ -214,7 +210,7 @@
 
                 <section class="populaires">
                     <div class="populaires-title">
-                        <h1 class="section-title">Les plus populaires</h1>
+                        <h2>Les plus populaires</h2>
                         <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
                     </div>
                     <div class="populaires-cards">
@@ -272,26 +268,24 @@
                                 </div>
                             </div>
                         </article>
-                    </div>
+                    </div>       
                 </section>
             </div>
 
-            <section class="activites-section">
-                <h1 class="section-title">
-                    Activités à Marseille
-                </h1>
+            <section class="activites-section" id="activites">
+                <h2>Activités à Marseille</h2>
 
                 <ul class="activites-row"><!-- Liens cliquables ?? -->
                     <li>
                         <article class="card card-item">
-                            <img src="images/activites/reno-laithienne.jpg" alt="Photographie du Vieux-Port" />
+                            <img src="images/activites/reno-laithienne.jpg" alt="Photographie du Vieux-Port">
                             <h3 class="card-title card-activite">Le Vieux Port</h3>
                         </article>
                     </li>
 
                     <li>
                         <article class="card card-item">
-                            <img src="images/activites/paul-hermann.jpg" alt="Photographie du Fort de Pomègues" />
+                            <img src="images/activites/paul-hermann.jpg" alt="Photographie du Fort de Pomègues">
                             <h3 class="card-title card-activite ">Fort de Pomègues</h3>
                         </article>
                     </li>
@@ -299,7 +293,7 @@
                     <li>
                         <article class="card card-item">
                             <img src="images/activites/kilyan-sockalingum.jpg"
-                                alt="Photographie du Parc National des Calanques" />
+                                alt="Photographie du Parc National des Calanques">
                             <h3 class="card-title card-activite ">Parc National des Calanques</h3>
                         </article>
                     </li>
@@ -307,7 +301,7 @@
                     <li>
                         <article class="card card-item">
                             <img src="images/activites/florian-wehde.jpg"
-                                alt="Photographie de Notre-Dame-de-la-Garde" />
+                                alt="Photographie de Notre-Dame-de-la-Garde">
                             <h3 class="card-title card-activite">Notre-Dame-de-la-Garde</h3>
                         </article>
                     </li>
@@ -318,8 +312,6 @@
 
 
         </main>
-
-
 
         <footer> 
             <ul>
