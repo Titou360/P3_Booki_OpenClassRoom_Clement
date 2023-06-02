@@ -296,7 +296,7 @@ button {
   color: var(--main-color);
 }
 
-.fa-star {
+.fa-star, .fa-chart-line {
     color : var(--main-color);
 }
 
