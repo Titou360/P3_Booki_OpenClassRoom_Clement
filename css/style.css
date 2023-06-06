@@ -492,8 +492,7 @@ button {
 
 .activites-section {
   width: 99%;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin: 30px 0px;
 }
 
 .activites-row .card {
