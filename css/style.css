@@ -325,6 +325,7 @@ button {
   flex-wrap: nowrap;
   gap: 10px;
   padding: 0px;
+  justify-content: space-between;
 }
 
 .hebergements-and-populaires section {
@@ -458,6 +459,11 @@ button {
   align-content: center;
   align-items: stretch;
   gap: 20px;
+  padding: 0;
+}
+
+.activites-row ul {
+    padding: 0;
 }
 
 .activites-row img {
