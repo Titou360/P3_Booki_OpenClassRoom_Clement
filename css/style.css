@@ -366,12 +366,12 @@ button {
 }
 
 .hebergements-and-populaires ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .hebergements-and-populaires li {
@@ -738,7 +738,6 @@ footer a:hover {
   }
 
   h3 {
-    padding-left: 10px;
     padding-right: 10px;
   }
 
@@ -846,7 +845,6 @@ footer a:hover {
     flex-direction: column;
     justify-content: center;
     flex-wrap: nowrap;
-
   }
 
   .hebergements img {
@@ -868,7 +866,6 @@ footer a:hover {
 
   .hebergements {
     background-color: white;
-
   }
 
   .populaires {
